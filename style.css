@@ -16,7 +16,7 @@ body{
 
 #container{
     
-    width: 375px;
+    width: max(20%, 20rem);
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -34,17 +34,20 @@ img{
     flex: 1 1 auto;
     margin-bottom: 32px;
     border-radius: 16px;
+    /* max-width: 90%; */
     
 }
 
 #text-container{
-    padding: 0 16px;
+    padding: 0 8px;
 }
-.bold-text{
+h1{
     margin-bottom: 32px;
     text-align: center;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    font-size: 1.4rem;
+
     
 }
 
